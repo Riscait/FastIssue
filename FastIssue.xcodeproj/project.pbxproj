@@ -14,6 +14,7 @@
 		8DD50D0D228CD65A00098AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DD50D0B228CD65A00098AA3 /* LaunchScreen.storyboard */; };
 		8DD50D16228DA57D00098AA3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD50D15228DA57D00098AA3 /* RxSwift.framework */; };
 		8DD50D19228DA92100098AA3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DD50D18228DA92100098AA3 /* RxCocoa.framework */; };
+		8DD50D1B228DAEAA00098AA3 /* DraftVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD50D1A228DAEAA00098AA3 /* DraftVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8DD50D0E228CD65A00098AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DD50D15228DA57D00098AA3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		8DD50D18228DA92100098AA3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		8DD50D1A228DAEAA00098AA3 /* DraftVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				8DD50D02228CD65800098AA3 /* AppDelegate.swift */,
 				8DD50D04228CD65800098AA3 /* EditVC.swift */,
+				8DD50D1A228DAEAA00098AA3 /* DraftVC.swift */,
 				8DD50D06228CD65800098AA3 /* Main.storyboard */,
 				8DD50D09228CD65A00098AA3 /* Assets.xcassets */,
 				8DD50D0B228CD65A00098AA3 /* LaunchScreen.storyboard */,
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD50D05228CD65800098AA3 /* EditVC.swift in Sources */,
+				8DD50D1B228DAEAA00098AA3 /* DraftVC.swift in Sources */,
 				8DD50D03228CD65800098AA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

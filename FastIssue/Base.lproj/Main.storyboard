@@ -67,6 +67,40 @@
             </objects>
             <point key="canvasLocation" x="366.66666666666669" y="782.8125"/>
         </scene>
+        <!--DraftVC-->
+        <scene sceneID="Yvs-ie-06b">
+            <objects>
+                <viewController id="otA-hC-um8" customClass="DraftVC" customModule="FastIssue" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ELo-fQ-L6D">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fw6-Ff-6Bb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="keR-Rf-5LQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40c-cI-p69" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1331" y="1487"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kqX-gN-LUe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s9I-Yz-C0l" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4ez-BF-teY">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="otA-hC-um8" kind="relationship" relationship="rootViewController" id="Cwd-Rc-LUN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qNA-dy-E9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366" y="1486"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Assignees" width="25" height="25"/>
